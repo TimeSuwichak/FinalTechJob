@@ -14,7 +14,7 @@ export default function LoginPage() {
     // mock login check
     if (email && password) {
       if (role === "ผู้ดูแล") {
-        navigate("/admin/dashboard"); // ไปหน้า dashboard ของ admin
+        navigate("/admin/admindashboard"); // ไปหน้า dashboard ของ admin
       } else {
         navigate("/technician/jobs"); // ไปหน้า technician
       }
