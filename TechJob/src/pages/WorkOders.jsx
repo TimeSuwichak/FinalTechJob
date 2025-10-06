@@ -1,9 +1,9 @@
 import React from 'react'
 
-const WorkAll = () => {
+const WorkOders = () => {
   return (
     <div>WorkAll</div>
   )
 }
 
-export default WorkAll
+export default WorkOders

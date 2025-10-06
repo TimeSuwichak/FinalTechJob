@@ -12,6 +12,7 @@ import RegisterPage from "./pages/RegisterPage";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminNavbar from "./components/AdminNavbar";
 import Datauser from "./pages/Datauser";
+import Report from "./pages/Report";
 
 const router = createBrowserRouter([
   { path: "/", element: <Navigate to="/login" replace /> },
@@ -29,7 +30,11 @@ const router = createBrowserRouter([
       },
       {
         path: "Datauser",
-        element: <Datauser/>,
+        element: <Datauser />,
+      },
+      {
+        path: "Report",
+        element: <Report />,
       },
       {
         path: "settings",
