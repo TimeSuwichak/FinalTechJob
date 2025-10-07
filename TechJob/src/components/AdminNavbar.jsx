@@ -55,7 +55,7 @@ export default function AdminNavbar() {
             </Link>
 
             <Link
-              to="/admin/datauser"
+              to="/admin/workoders"
               className="bg-[#19182A] text-white py-2 px-4 rounded-lg hover:bg-[#222]"
             >
               <CgFileDocument className=" inline mr-2" /> ระบบใบงาน

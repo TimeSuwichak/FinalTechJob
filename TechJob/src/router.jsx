@@ -8,16 +8,15 @@ import "./App.css";
 
 import { createBrowserRouter } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminNavbar from "./components/AdminNavbar";
 import Datauser from "./pages/Datauser";
 import Report from "./pages/Report";
+import WorkOders from "./pages/WorkOders";
 
 const router = createBrowserRouter([
   { path: "/", element: <Navigate to="/login" replace /> },
   { path: "/login", element: <LoginPage /> },
-  { path: "/register", element: <RegisterPage /> },
 
   // Layout ของ admin
   {
@@ -37,8 +36,8 @@ const router = createBrowserRouter([
         element: <Report />,
       },
       {
-        path: "settings",
-        element: <h2 className="text-white">ตั้งค่าระบบ</h2>,
+        path: "WorkOders",
+        element:<WorkOders/>,
       },
     ],
   },

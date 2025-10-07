@@ -123,26 +123,11 @@ export default function LoginPage() {
                 >
                   เข้าสู่ระบบ
                 </button>
-                <button
-                  type="button"
-                  onClick={() => navigate("/technician/register")}
-                  className="bg-[#19182A] text-white py-2 px-6 rounded-lg border border-[#5F5AFF] font-semibold hover:bg-[#222] transition"
-                >
-                  ช่าง
-                </button>
+          
               </div>
             </form>
 
-            <div className="text-center mt-6 text-gray-400 text-sm">
-              ยังไม่มีบัญชี?{" "}
-              <button
-                className="text-[#5F5AFF] hover:underline"
-                onClick={handleRegisterClick}
-                type="button"
-              >
-                สมัครสมาชิก
-              </button>
-            </div>
+            
           </div>
         </div>
       </div>
